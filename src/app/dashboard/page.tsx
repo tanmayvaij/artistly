@@ -1,5 +1,3 @@
-"use client";
-
 import {
   Table,
   TableBody,
@@ -55,7 +53,6 @@ export default function DashboardPage() {
                     <Button
                       size="sm"
                       className="bg-pink-600 hover:bg-pink-500 text-white"
-                      onClick={() => alert(`Viewing ${artist.name}`)}
                     >
                       View
                     </Button>
@@ -69,3 +66,9 @@ export default function DashboardPage() {
     </main>
   );
 }
+
+export const metadata = {
+  title: "Manager Dashboard - Artistly",
+  description:
+    "View all submitted artist profiles with category, location and pricing. Manage submissions efficiently.",
+};

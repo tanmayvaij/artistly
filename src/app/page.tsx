@@ -68,3 +68,9 @@ export default function HomePage() {
     </main>
   );
 }
+
+export const metadata = {
+  title: "Artistly - Book the Best Performing Artists",
+  description:
+    "Discover and book top performing artists for your event - singers, dancers, DJs and more with Artistly.",
+};
