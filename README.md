@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎭 Artistly – Event Talent Discovery Platform
 
-## Getting Started
+Artistly is a modern talent discovery platform built with **Next.js 15** and **ShadCN UI**, designed to help users discover and book performing artists effortlessly. It includes a hero-driven homepage, searchable artist listings with filters, onboarding forms for artists, and a manager dashboard for submissions.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 🖼️ **Home Page** with hero section and category cards  
+- 🔎 **Artist Directory** with category/location/price filters  
+- 📝 **Artist Onboarding Form** with validation and file upload  
+- 📊 **Dashboard View** with artist submission table  
+- ✅ Fully responsive & styled with **Tailwind CSS** + **ShadCN UI**
+
+---
+
+## 🛠️ Tech Stack
+
+- [Next.js 14](https://nextjs.org/)
+- [React 18](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [ShadCN UI](https://ui.shadcn.com/)
+- [Formik + Yup](https://formik.org/)
+- Local mock data for artists and submissions
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](public/screenshots/home-page.png)
+
+---
+
+### 🔍 Artists Page
+![Artists Page](public/screenshots/artists-page.png)
+
+---
+
+### 🧑‍🎤 Onboard Artist
+![Onboard Page](public/screenshots/onboard-page.png)
+
+---
+
+### 📋 Dashboard
+![Dashboard Page](public/screenshots/dashboard-page.png)
+
+---
+
+## 📦 Installation & Running
 
 ```bash
+# 1. Clone the repo
+git clone https://github.com/tanmayvaij/artistly.git
+cd artistly
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
