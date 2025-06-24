@@ -22,17 +22,17 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/about" className="">
+              <Link href="#" className="">
                 About Us
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="">
+              <Link href="#" className="">
                 Contact
               </Link>
             </li>
             <li>
-              <Link href="/careers" className="">
+              <Link href="#" className="">
                 Careers
               </Link>
             </li>
@@ -48,7 +48,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/onboard" className="">
+              <Link href="/onboard-artist" className="">
                 Onboard as Artist
               </Link>
             </li>
