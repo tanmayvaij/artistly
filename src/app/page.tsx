@@ -4,19 +4,20 @@ import { categories } from "@/data";
 import Image from "next/image";
 import { Search, UserPlus } from "lucide-react";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="min-h-screen bg-white text-gray-800">
+    <main className="min-h-screen text-gray-800">
       <section className="py-20 px-6 max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-10">
-          <div className="flex-1 text-center md:text-left">
+          <div className="flex-1  text-center md:text-left">
+            
             <h1 className="text-5xl font-bold mb-4 leading-tight">
               Connect with the Best <br className="hidden md:inline" />{" "}
               Performing Artists
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-lg">
               Discover and book talented artists for your next big event. From
-              soulful singers to inspiring speakers – Artistly.com makes it
+              soulful singers to inspiring speakers - Artistly.com makes it
               effortless.
             </p>
 
